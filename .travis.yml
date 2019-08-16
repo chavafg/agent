@@ -11,9 +11,6 @@ os:
   - linux
   - linux-ppc64le
 
-language: go
-go_import_path: github.com/kata-containers/agent
-
 env:
   - target_branch=$TRAVIS_BRANCH
 
